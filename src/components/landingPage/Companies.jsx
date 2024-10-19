@@ -7,9 +7,9 @@ import izuzu from '@/assets/LandingPage/manufacturers/izuzu.png'
 
 const Companies = () => {
     return (
-        <div className=" w-[50%] self-center">
+        <div className=" md:w-[50%] self-center">
             <h1 className="text-xl font-bold text-center">Companies that trust us</h1>
-            <div className="  flex flex-row gap-4">
+            <div className="  flex flex-row gap-10">
                 <div className=' flex-1 aspect-square flex justify-center items-center'>
                     <Image src={hyundai} className=' w-full' />
                 </div>

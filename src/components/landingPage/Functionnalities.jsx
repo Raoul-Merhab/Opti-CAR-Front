@@ -12,11 +12,11 @@ const Functionnalities = () => {
     return (
         <div className=' self-center w-[80%] flex flex-col items-center gap-10'>
             <div className=' w-full flex flex-col gap-4 items-center'>
-                <h1 className=' w-1/2 self-center text-center font-semibold text-4xl'>Explore Our Smart Analytics Platform for <span className=' text-bleu'>Car Manufacturing</span> Operations</h1>
-                <p className=' w-1/3 text-center text-[#4B4B4B] font-semibold'>Optimize performance, reduce downtime, and enhance quality with smart analytics.</p>
+                <h1 className=' md:w-1/2 self-center text-center font-semibold text-4xl'>Explore Our Smart Analytics Platform for <span className=' text-bleu'>Car Manufacturing</span> Operations</h1>
+                <p className=' md:w-1/3 text-center text-[#4B4B4B] font-semibold'>Optimize performance, reduce downtime, and enhance quality with smart analytics.</p>
             </div>
             <div className=' w-full flex flex-col gap-4'>
-                <div className=' w-full flex flex-row gap-4'>
+                <div className=' w-full flex flex-col  md:flex-row gap-4'>
                     <div onMouseEnter={()=>sethovered(0)} onMouseLeave={()=>sethovered(null)} className={` p-4 flex-1 flex flex-col rounded-xl gap-5 border-2 ${hovered === 0?" hover:border-bleu hover:bg-bleu":"bg-[#FAFAFA] border-[#E3E3E3]"}`}>
                         <div className={` rounded-full w-14 aspect-square flex justify-center items-center ${hovered===0?" bg-white":"bg-[#FAFAFA]"}`}>
                             <MdOutlineSecurity size={30} className={` ${hovered===0?"text-bleu ":"text-black"}`} />
@@ -54,7 +54,7 @@ const Functionnalities = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' self-center w-1/2 flex flex-row gap-4'>
+                <div className=' self-center md:w-1/2 flex md:flex-row flex-col gap-4'>
                     <div onMouseEnter={()=>sethovered(4)} onMouseLeave={()=>sethovered(null)} className={` p-4 flex-1 flex flex-col rounded-xl gap-5 border-2 ${hovered === 4?" hover:border-bleu hover:bg-bleu":"bg-[#FAFAFA] border-[#E3E3E3]"}`}>
                         <div className={` rounded-full w-14 aspect-square flex justify-center items-center ${hovered===4?" bg-white":"bg-[#FAFAFA]"}`}>
                             <GrAnnounce size={30} className={` ${hovered===4?"text-bleu ":"text-black"}`} />

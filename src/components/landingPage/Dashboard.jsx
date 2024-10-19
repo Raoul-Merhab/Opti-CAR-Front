@@ -4,14 +4,14 @@ import Main from "@/assets/LandingPage/Dashboard/Main.png"
 
 const Dashboard = () => {
     return (
-        <div className=' w-full flex flex-col items-center gap-8'>
-            <div className=' flex flex-col gap-4 w-1/3'>
-                <h1 className=' text-[#D37A0D] text-4xl text-center font-bold'>Cyber Security</h1>
-                <h1 className=' text-[#D37A0D] text-4xl text-center font-bold'>Penetration Testing Data</h1>
-                <p className=' text-base text-[#4B4B4B] text-center'>Data analysis software is a type of software tool used for data analysis and reporting. It is designed to help businesses, organizations.</p>
+        <div className=' w-full px-2 flex flex-col items-center gap-8'>
+            <div className=' flex flex-col  md:gap-4 md:w-1/3'>
+                <h1 className=' text-[ text-4xl text-center font-bold'>Real-time monitoring &</h1>
+                <h1 className=' text-blue-600 text-4xl text-center font-bold'>energy consumption</h1>
+                <p className='mt-4 text-base text-[#4B4B4B] text-center'>Our platform ensures reliability of data like temperature, vibration, energy usage, and Production tracking, defect logging,  and reporting.</p>
             </div>
-            <div className=' w-2/3 flex flex-row gap-10'>
-                <div className=' flex-[3] flex justify-center items-center'>
+            <div className=' md:w-2/3 flex md:flex-row gap-10'>
+                <div className='hidden flex-[3] md:flex justify-center items-center'>
                     <Image src={Main} className=' w-[80%]' />
                 </div>
                 <div className=' flex-[2] flex flex-col gap-4'>

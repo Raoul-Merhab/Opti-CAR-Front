@@ -4,10 +4,10 @@ import KnowMoreImage from '@/assets/LandingPage/KnowMoreImage.png'
 
 const KnowMore = () => {
     return (
-        <div className=' relative w-full flex items-center justify-center py-20 bg-[#12141D]'>
+        <div className=' relative w-full flex items-center justify-center px-5 py-20 bg-[#12141D]'>
             <div className=' w-40 h-40 bg-[#008EFF] rounded-full absolute top-0 left-0 -translate-x-1/2 -translate-y-1/2'></div>
-            <div className=' w-[70%] flex flex-row gap-10'>
-                <div className=' flex-1'>
+            <div className=' md:w-[70%] flex flex-row gap-10'>
+                <div className='md:flex hidden flex-1'>
                     <Image src={KnowMoreImage}/>
                 </div>
                 <div className=' flex-1 flex flex-col gap-6'>
