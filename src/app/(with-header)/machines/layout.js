@@ -39,9 +39,9 @@ export default function MachineLayout({ children }) {
 
 
 	return (
-		<div className=" w-full h-full flex flex-row gap-5">
-            <div className=" h-full flex-[2] bg-[#ECECEC] rounded-xl flex flex-col p-5 gap-5">
-                <div className=" flex flex-row justify-between">
+		<div className=" w-full h-full flex md:flex-row flex-col gap-5">
+            <div className=" md:h-full md:flex-[2] bg-[#ECECEC] rounded-xl flex flex-col p-5 gap-5">
+                <div className=" flex flex-row bg-red-200 justify-between">
                     <h1 className=" font-semibold text-xl">Machines</h1>
                     <div onClick={onCLickAddMachine} className=" cursor-pointer w-8 h-8 bg-[#F4F4F4] flex justify-center items-center rounded-lg">
                         <FaPlus color="#000" size={20} />
