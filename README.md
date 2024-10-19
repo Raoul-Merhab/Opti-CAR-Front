@@ -39,6 +39,15 @@ Before you begin, ensure you have the following installed on your machine:
 
 ---
 
+## **NOTE :** 
+If you want to run it with **docker**, use the "docker-compose.yml" file that you can find in the backend repository. Use the commend : 
+**docker-compose up --build**
+
+## **Credential for testing**
+**username**: ls_ouanes
+**password** : dapassword
+
+
 ## **Installation**
 
 ### **InfluxDB**
